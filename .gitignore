@@ -2,7 +2,7 @@ venv/
 __pycache__/
 *.py[cod]
 *.class
-.env
+.env.local
 .pytest_cache/
 .coverage
 htmlcov/
