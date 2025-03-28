@@ -2322,7 +2322,7 @@ async def parse_function_call(query: str) -> str:
         response = {"name": function_name, "arguments": json.dumps(arguments)}
 
         # Create FastAPI implementation code
-        fastapi_code = """
+        fastapi_code = r"""
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import re
